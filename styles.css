@@ -1,11 +1,15 @@
 body {
+    p{font-family: 'Times New Roman', Times, serif;}
+    h3{font-family: 'Times New Roman', Times, serif;}
+    h2{font-family: 'Times New Roman', Times, serif;}
+    background-color: rgb(203, 203, 203);
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #9d2121;
+    background-color: rgb(126, 48, 48);
     color: rgb(255, 255, 255);
     padding: 20px;
 }
@@ -13,7 +17,7 @@ header {
 header .container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
 header nav ul {
@@ -32,8 +36,127 @@ header nav ul li a {
     text-decoration: none;
 }
 
+main .inici{
+    h2{color: white;}
+    p{color: white;}
+    background-color:  #937c5a;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.ini_container {
+    h3{color: white;}
+    p{color: #cacaca;}
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+    background-color: rgb(126, 48, 48);
+    border-radius: 15px;
+}
+
+.ini_container section ul{
+    a{color: #61daff;}
+    list-style: circle;
+}
+
+.pag1-container{
+    p{color: rgb(215, 215, 215);}
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 7px;
+    border-radius: 15px;
+    background-color: #485674;
+}
+
+.pg1-video{
+    text-align: ;
+}
+
+.video, .cont-video{
+    display: inline-block;
+    margin: 30px;
+}
+
+.cont-video{
+    align-content: flex-start;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: start;
+}
+
+.seccion1{
+    background-color: #485674;
+    padding: 5px;}
+.seccion2{
+    p{color: #000000;}
+    background-color: rgb(162, 191, 203);
+    border-radius: 10px;
+    padding: 5px;}
+.seccion3{
+    background-color: #485674;
+    padding: 5px;}
+.seccion4{
+    p{color: #000000;}
+    border-radius: 10px;
+    background-color: rgb(162, 191, 203);
+    padding: 5px;}
+.seccion5{
+    background-color: #485674;
+    padding: 5px;}
+.seccion6{
+    p{color: #000000;}
+    border-radius: 10px;
+    background-color:rgb(162, 191, 203);
+    padding: 5px;}
+.seccion7{
+    background-color: #485674;
+    padding: 5px;
+}
+
+.img-pg1{
+    border-radius: 15px;
+    text-align: center;
+}
+
+.pag2-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    background-color: #935a5a;
+    border-radius: 15px;
+}
+
+.pg2-seccion1{
+    h3{color: rgb(210, 210, 210);}
+    p{color: rgb(210, 210, 210)}
+    padding: 10px;
+    background-color: #935a5a ;}
+.pg2-seccion2{
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #d59e8d ;}
+.pg2-seccion3{
+    h3{color: rgb(210, 210, 210);}
+    p{color: rgb(210, 210, 210)}
+    padding: 10px;
+    background-color: #935a5a;}
+.pg2-seccion4{
+    border-radius: 15px;
+    padding: 10px;
+    background-color:#d59e8d;}
+
+.pg2-conte{
+    display: flex;
+    justify-content: space-between;
+    text-align: end;
+    padding: 20px;
+}
+
 footer {
-    background-color: #540000;
+    background-color: rgb(126, 48, 48);
     color: white;
     text-align: center;
     padding: 5px;
@@ -50,15 +173,69 @@ article {
     margin-bottom: 20px;
 }
 
-table {
-    width: 50%;
+.tabla1 {
+    border: 2px solid #000000;
+    width: 150%;
     border-collapse: collapse;
 }
 
-table th, table td {
+.tabla1 th, .tabla1 td {
+    border: 2px solid #000000;
+    padding: 7px;
+    text-align: start;
+}
+
+.pag3-container{
+    h3{color: white;}
+    p{color: white;}
+    background-color: #404e5d;
+    border-radius: 15px;
+    padding: 10px;
+    position: relative;
+    height: 230px;
+    width: 40%;
+}
+
+.text{
+    position: absolute;
+    right: 200px;
+}
+
+.tabla2 {
+    position: absolute;
+    bottom: 50px;
+    left: 650px;
+    border: 2px solid #000000;
+    width: 120%;
+    border-collapse: collapse;
+}
+
+.tabla2 th, .tabla2 td {
+    border: 2px solid #000000;
+    padding: 7px;
+    text-align: center;
+}
+
+.pg3-conte{
+    h3{color: white;}
+    display: flex;
+    flex-direction: column;
+    background-color:#404e5d;
+    border-radius: 20px;
+    padding: 7px;
+}
+
+.pg3-seccion1{
+    background-color: rgb(162, 191, 203);
+    border-radius: 10px;
     padding: 5px;
     border: 1px solid #ddd;
 }
+
+.pg3-seccion2{
+    p{color: white;}
+}
+
 
 .modal {
     display: none; 
@@ -95,7 +272,7 @@ table th, table td {
 
 .close:hover,
 .close:focus {
-    color: rgb(107, 3, 3);
+    color: rgb(58, 0, 0);
     text-decoration: none;
     cursor: pointer;
 }
