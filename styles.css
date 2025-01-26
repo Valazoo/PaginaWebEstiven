@@ -31,10 +31,19 @@ header nav ul li {
     margin-right: 20px;
 }
 
-header nav ul li a {
-    color: rgb(252, 251, 253);
-    text-decoration: none;
+header nav ul li a{
+    color: #fefefe;
 }
+
+header nav ul li a:hover{
+    color: rgb(2, 218, 234);
+    font-weight: bold;
+}
+
+header nav ul li a:active{
+    color: white;
+    font-weight: inherit;
+}    
 
 main .inici{
     h2{color: white;}
