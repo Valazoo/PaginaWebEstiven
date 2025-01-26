@@ -51,6 +51,11 @@ main .inici{
     background-color:  #937c5a;
     border-radius: 15px;
     padding: 10px;
+    transition: background-color 0.6s ease-in-out;
+}
+
+.inici:hover{
+    background-color: #485674;
 }
 
 .ini_container {
@@ -63,6 +68,11 @@ main .inici{
     padding: 15px;
     background-color: rgb(126, 48, 48);
     border-radius: 15px;
+    transition: background-color 0.6s ease-in-out;
+}
+
+.ini_container:hover{
+    background-color: #935a5a;
 }
 
 .ini_container section ul{
