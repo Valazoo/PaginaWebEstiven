@@ -231,6 +231,12 @@ article {
     padding: 7px;
     text-align: start;
 }
+.tabla1 th{
+    background-color: rgb(190, 243, 252);
+}
+.tabla1 td{
+    background-color: white;
+}
 
 .pag3-container{
     h3{color: white;}
@@ -261,6 +267,13 @@ article {
     border: 2px solid #000000;
     padding: 7px;
     text-align: center;
+}
+.tabla2 th{
+    color: white;
+    background-color: rgb(126, 48, 48);;
+}
+.tabla2 td{
+    background-color: rgb(255, 228, 190);
 }
 
 .pg3-conte{
