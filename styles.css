@@ -88,6 +88,11 @@ main .inici{
     padding: 7px;
     border-radius: 15px;
     background-color: #485674;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.pag1-container:hover{
+    background-color:  rgb(126, 48, 48);
 }
 
 .pg1-video{
@@ -108,32 +113,55 @@ main .inici{
 
 .seccion1{
     background-color: #485674;
+    transition: background-color 0.2s ease-in-out;
     padding: 5px;}
 .seccion2{
     p{color: #000000;}
     background-color: rgb(162, 191, 203);
     border-radius: 10px;
+    transition: background-color 0.2s ease-in-out;
     padding: 5px;}
 .seccion3{
     background-color: #485674;
+    transition: background-color 0.2s ease-in-out;
     padding: 5px;}
 .seccion4{
     p{color: #000000;}
     border-radius: 10px;
     background-color: rgb(162, 191, 203);
+    transition: background-color 0.2s ease-in-out;
     padding: 5px;}
 .seccion5{
     background-color: #485674;
+    transition: background-color 0.2s ease-in-out;
     padding: 5px;}
 .seccion6{
     p{color: #000000;}
     border-radius: 10px;
     background-color:rgb(162, 191, 203);
+    transition: background-color 0.2s ease-in-out;
     padding: 5px;}
 .seccion7{
     background-color: #485674;
+    transition: background-color 0.2s ease-in-out;
     padding: 5px;
 }
+
+.seccion1:hover{
+    background-color: rgb(126, 48, 48);}
+.seccion3:hover{
+    background-color: rgb(126, 48, 48);}
+.seccion5:hover{
+    background-color: rgb(126, 48, 48);}
+.seccion7:hover{
+    background-color: rgb(126, 48, 48);}
+
+.seccion2:hover{
+    background-color: rgb(162, 162, 162);}
+.seccion4:hover{
+    background-color: rgb(162, 162, 162);}
+.seccion6:hover{
+    background-color: rgb(162, 162, 162);}
 
 .img-pg1{
     border-radius: 15px;
@@ -249,6 +277,11 @@ article {
     border-radius: 10px;
     padding: 5px;
     border: 1px solid #ddd;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.pg3-seccion1:hover{
+    background-color: rgb(162, 162, 162);;
 }
 
 .pg3-seccion2{
